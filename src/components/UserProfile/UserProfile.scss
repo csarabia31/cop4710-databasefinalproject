@@ -1,0 +1,40 @@
+.profileContainer {
+    position: absolute;
+    top: 5vh;
+    height: calc(100% - 5vh);
+    width: 100%;
+    //background: rgb(245, 245, 245);
+    background: rgb(79, 221, 197);
+}
+
+.profile {
+    font-size: 10vh;
+    top: 2vh;
+    position: relative;
+    margin-left: 8%;
+    margin-top: 0;
+    transform: translateY(0);
+}
+
+.subtitle {
+    margin-left: 8.3%;
+    font-weight: 300;
+    font-size: 3vh;
+    margin-top: 1%;
+}
+
+.profileInfoContainer {
+    margin-left: 8%;
+    height: 71vh;
+    width: 40%;
+    background: white;
+    border-radius: 4px;
+}
+
+.editUser {
+    width: 80%;
+    height: 80%;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+

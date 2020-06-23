@@ -1,0 +1,154 @@
+.container {
+    background: white;
+    width: 100%;
+    height: calc(100%);
+    position: fixed;
+    overflow: hidden;
+}
+
+p {
+    cursor: default;
+}
+
+h1 {
+    position: absolute;
+    top: 45%;
+    margin: 0;
+    margin-left: 8%;
+    font-size: 5vw;
+    transform: translateY(-45%);
+    cursor: default;
+}
+
+.subtitle {
+    font-weight: 100;
+    position: absolute;
+    top: 53%;
+    margin: 0;
+    margin-left: 9.5%;
+    font-size: 1.5vw;
+    transform: translateY(-53%);
+}
+
+.authors {
+    font-weight: 100;
+    position: absolute;
+    top: 90%;
+    margin: 0;
+    margin-left: 8%;
+    font-size: 1vw;
+    transform: translateY(-90%);
+}
+
+.text {
+    position: relative;
+    text-align: center;
+}
+
+.titleText {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+
+.splashImage {
+    overflow: hidden;
+    align-items: center;
+    width: auto;
+    height: auto;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.splashScreen {
+    width: 50%;
+    min-height: 100%;
+    display: inline-block;
+    background: rgb(162, 255, 162);
+    top: 0;
+}
+
+.formWrapper {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.username {
+    margin: 0;
+    margin-left: 15.5%;
+    width: 80%;
+    margin-top: 5%;
+    font-weight: 100;
+    font-size: .8vw;
+    color: rgb(119, 119, 119);
+    margin-bottom: 1rem;
+}
+
+.loginInput {
+    line-height: normal;
+    top: 0;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid lightgrey;
+    height: 5vh;
+    width: 60%;
+    margin-left: 15%;
+    position: relative;
+    font-size: 15px;
+    padding-left: 1rem;
+    transition: .3s ease-in-out;
+}
+
+.loginInput:hover {
+    transform: scale(1.01);
+}
+
+.loginInput::placeholder, .loginInput::-webkit-input-placeholder {
+    color: rgb(124, 124, 124);
+    opacity: 0.5;
+}
+
+h2 {
+    font-weight: 700;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-size: 2.5vw;
+    color: rgb(68, 68, 68);
+    margin-bottom: 0;
+}
+
+.loginSubText {
+    font-weight: 400;
+    color: rgb(104, 104, 104);
+    font-size: .8vw;
+    margin-left: 15%;
+    margin-top: 1rem;
+    margin-bottom: 10%;
+}
+
+.submitLogin {
+    border-radius: 4px;
+    width: 62%;
+    margin-top: 8%;
+    height: 6vh;
+    margin-left: 15%;
+    padding: 0;
+    background: #13d6a5;
+    border: none;
+    color: white;
+    font-size: 16px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.submitLogin:hover {
+    transform: scale(1.05);
+}

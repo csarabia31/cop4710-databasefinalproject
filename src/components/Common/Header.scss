@@ -1,0 +1,55 @@
+.headerContainer {
+    height: 5vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background: white;
+    margin-bottom: 5vh;
+    padding: 0;
+    display: block;
+}
+
+.header {
+    position: relative;
+    height: 5vh;
+    width: 100%;
+}
+
+.headerWelcome {
+    color: rgb(66, 66, 66);
+    font-size: 15px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 0;
+    margin-left: 1%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.logout {
+    color: rgb(66, 66, 66);
+    margin: 0;
+    padding: 0;
+    right: 0;
+    position: absolute;
+    margin-right: 1%;
+    top: 50%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+center {
+    font-weight: 600;
+    font-size: 3vh;
+    color: rgb(30, 214, 138);
+    top: 50%;
+    margin-left: 49%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
